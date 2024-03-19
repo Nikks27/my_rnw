@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.blue,
           centerTitle: true,
+
           leading: Icon(Icons.menu,color: Colors.white,),
           title: Text('Rich Text Example',style: TextStyle(color: Colors.white),),
           actions: [Icon(Icons.search,color: Colors.white,),
